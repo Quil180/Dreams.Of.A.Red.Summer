@@ -2990,4 +2990,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_increase_grain_production.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ITA_motor_focus"
+		texturefile = "gfx/interface/goals/ITA_motor_focus.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_mussolini_bathtub"
+		texturefile = "gfx/interface/goals/ITA_mussolini_bathtub.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_musssolini_takes_flight"
+		texturefile = "gfx/interface/goals/ITA_musssolini_takes_flight.dds"
+	}
 }
