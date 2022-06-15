@@ -30,7 +30,7 @@ BEL = { color 	 = rgb { 150  130  20  }
 HOL = {	color = rgb { 160  100  45 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
+CZE = {	color = rgb { 50  120  110 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
@@ -78,7 +78,7 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 10  15  125 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
@@ -94,7 +94,7 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 51 155 0 }
+	color = rgb { 35  110  0 }
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
@@ -110,7 +110,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 180  80  60 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
