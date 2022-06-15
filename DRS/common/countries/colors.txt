@@ -38,7 +38,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 130  132  140 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
@@ -54,7 +54,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
+	color = rgb { 181  122  45 }
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
@@ -70,7 +70,7 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
+	color = rgb { 138  0  0 }
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
@@ -78,7 +78,7 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 41  50  150 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
@@ -94,7 +94,7 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 51 155 0 }
+	color = rgb { 29  89  0 }
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
@@ -110,7 +110,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 184  88 66 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
