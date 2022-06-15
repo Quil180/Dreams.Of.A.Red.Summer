@@ -16,7 +16,7 @@
 
 focus = {
 		id = ITAconvene_the_fascist_council
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_ITA_convene_the_fascist_council
 		x = 30
 		y = 0
 		cost = 10
@@ -429,7 +429,7 @@ focus = {
 focus = {
 		id = ITAdecide_education_policy
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = ITAconvene_the_facist_council}
+		prerequisite = { focus = ITAconvene_the_fascist_council}
 		
 		
 		x = 26
@@ -449,7 +449,7 @@ focus = {
 focus = {
 		id = ITADecide_Social_Welfare_Policy
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = ITAconvene_the_facist_council }
+		prerequisite = { focus = ITAconvene_the_fascist_council }
 		
 		
 		x = 24
