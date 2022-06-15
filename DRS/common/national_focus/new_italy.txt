@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 50 y = 1000 }
 
 focus = {
-		id = convene_the_facist_council
+		id = ITAconvene_the_fascist_council
 		icon = GFX_goal_generic_demand_territory
 		x = 30
 		y = 0
@@ -31,9 +31,9 @@ focus = {
 	}
 	
 focus = {
-		id = End_the_War_in_Ethiopia
+		id = ITAEnd_the_War_in_Ethiopia
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = convene_the_facist_council}
+		prerequisite = { focus = ITAconvene_the_fascist_council}
 		x = 30
 		y = 1
 		cost = 10
@@ -48,9 +48,9 @@ focus = {
 	}	
 
 focus = {
-		id = reorginize_the_regioni_amministrative
+		id = ITAreorginize_the_regioni_amministrative
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = End_the_War_in_Ethiopia}
+		prerequisite = { focus = ITAEnd_the_War_in_Ethiopia}
 		x = 30
 		y = 2
 		cost = 10
@@ -65,9 +65,9 @@ focus = {
 	}	
 
 focus = {
-		id = Declare_the_meditereanean_family
+		id = ITADeclare_the_meditereanean_family
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = reorginize_the_regioni_amministrative}
+		prerequisite = { focus = ITAreorginize_the_regioni_amministrative}
 		x = 30
 		y = 3
 		cost = 10
@@ -82,9 +82,9 @@ focus = {
 	}	
 
 focus = {
-		id = Invite_the_Croats
+		id = ITAInvite_the_Croats
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Declare_the_meditereanean_family}
+		prerequisite = { focus = ITADeclare_the_meditereanean_family}
 		x = 30
 		y = 4
 	
@@ -100,9 +100,9 @@ focus = {
 	}	
 
 focus = {
-		id = Approach_Zog_in_Albania
+		id = ITAApproach_Zog_in_Albania
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Declare_the_meditereanean_family}
+		prerequisite = { focus = ITADeclare_the_meditereanean_family}
 		x = 32
 		y = 4
 		cost = 10
@@ -117,9 +117,9 @@ focus = {
 	}	
 
 focus = {
-		id = Coax_the_Slovenes
+		id = ITACoax_the_Slovenes
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Declare_the_meditereanean_family}
+		prerequisite = { focus = ITADeclare_the_meditereanean_family}
 		x = 28
 		y = 4
 		cost = 10
@@ -134,9 +134,9 @@ focus = {
 	}	
 
 focus = {
-		id = End_the_Serbian_THreat
+		id = ITAEnd_the_Serbian_THreat
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Coax_the_Slovenes focus = Invite_the_Croats focus = Approach_Zog_in_Albania}
+		prerequisite = { focus = ITACoax_the_Slovenes focus = ITAInvite_the_Croats focus = ITAApproach_Zog_in_Albania}
 		
 		
 		x = 30
@@ -153,9 +153,9 @@ focus = {
 	}	
 	
 focus = {
-		id = The_Slavic_legions
+		id = ITAThe_Slavic_legions
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = End_the_Serbian_THreat}
+		prerequisite = { focus = ITAEnd_the_Serbian_THreat}
 		
 		x = 30
 		y = 6
@@ -171,9 +171,9 @@ focus = {
 	}	
 
 focus = {
-		id = Incorporte_Balkan_Industry
+		id = ITAIncorporte_Balkan_Industry
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = End_the_Serbian_THreat}
+		prerequisite = { focus = ITAEnd_the_Serbian_THreat}
 		
 		x = 28
 		y = 6
@@ -189,9 +189,9 @@ focus = {
 	}	
 
 focus = {
-		id = Ports_on_the_adriatic
+		id = ITAPorts_on_the_adriatic
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = End_the_Serbian_THreat}
+		prerequisite = { focus = ITAEnd_the_Serbian_THreat}
 		
 		x = 32
 		y = 6
@@ -207,11 +207,11 @@ focus = {
 	}	
 	
 focus = {
-		id = Balkan_Reconciliation
+		id = ITABalkan_Reconciliation
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Incorporte_Balkan_Industry}
-		prerequisite = { focus = The_Slavic_legions}
-		prerequisite = { focus = Ports_on_the_adriatic}
+		prerequisite = { focus = ITAIncorporte_Balkan_Industry}
+		prerequisite = { focus = ITAThe_Slavic_legions}
+		prerequisite = { focus = ITAPorts_on_the_adriatic}
 		x = 30
 		y = 7
 		cost = 10
@@ -226,11 +226,11 @@ focus = {
 	}	
 
 focus = {
-		id = The_NOrthern_Cushion
+		id = ITAThe_NOrthern_Cushion
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Balkan_Reconciliation}
-		mutually_exclusive = { focus = The_Powers_that_BEE}
-		mutually_exclusive = { focus = BYzantine_Reclamation}
+		prerequisite = { focus = ITABalkan_Reconciliation}
+		mutually_exclusive = { focus = ITAThe_Powers_that_BEE}
+		mutually_exclusive = { focus = ITABYzantine_Reclamation}
 		
 		x = 28
 		y = 8
@@ -246,11 +246,11 @@ focus = {
 	}	
 
 focus = {
-		id = The_Powers_that_BEE
+		id = ITAThe_Powers_that_BEE
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Balkan_Reconciliation}
-		mutually_exclusive = { focus = The_NOrthern_Cushion}
-		mutually_exclusive = { focus = BYzantine_Reclamation}
+		prerequisite = { focus = ITABalkan_Reconciliation}
+		mutually_exclusive = { focus = ITAThe_NOrthern_Cushion}
+		mutually_exclusive = { focus = ITABYzantine_Reclamation}
 		x = 30
 		y = 8
 		
@@ -266,11 +266,11 @@ focus = {
 	}	
 
 focus = {
-		id = BYzantine_Reclamation
+		id = ITABYzantine_Reclamation
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Balkan_Reconciliation}
-		mutually_exclusive = { focus = The_NOrthern_Cushion}
-		mutually_exclusive = { focus = The_Powers_that_BEE}
+		prerequisite = { focus = ITABalkan_Reconciliation}
+		mutually_exclusive = { focus = ITAThe_NOrthern_Cushion}
+		mutually_exclusive = { focus = ITAThe_Powers_that_BEE}
 		
 		x = 32
 		y = 8
@@ -287,9 +287,9 @@ focus = {
 	}	
 	
 focus = {
-		id = Hamburg_plan
+		id = ITAHamburg_plan
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = The_NOrthern_Cushion}
+		prerequisite = { focus = ITAThe_NOrthern_Cushion}
 		
 		
 		x = 28
@@ -307,9 +307,9 @@ focus = {
 	}	
 
 focus = {
-		id = Italian_Supremacy
+		id = ITAItalian_Supremacy
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = The_Powers_that_BEE}
+		prerequisite = { focus = ITAThe_Powers_that_BEE}
 		
 		
 		x = 30
@@ -327,9 +327,9 @@ focus = {
 	}	
 
 focus = {
-		id = Eastern_Sand
+		id = ITAEastern_Sand
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = BYzantine_Reclamation}
+		prerequisite = { focus = ITABYzantine_Reclamation}
 		
 		
 		x = 32
@@ -347,9 +347,9 @@ focus = {
 	}	
 
 focus = {
-		id = German_stabilization_campaign
+		id = ITAGerman_stabilization_campaign
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Hamburg_plan}
+		prerequisite = { focus = ITAHamburg_plan}
 		
 		
 		x = 28
@@ -367,9 +367,9 @@ focus = {
 	}	
 
 focus = {
-		id = King_of_the_East
+		id = ITAKing_of_the_East
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Eastern_Sand}
+		prerequisite = { focus = ITAEastern_Sand}
 		
 		
 		x = 32
@@ -387,9 +387,9 @@ focus = {
 	}	
 
 	focus = {
-		id = Realize_Roman_ambitions
+		id = ITARealize_Roman_ambitions
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = German_stabilization_campaign focus = Italian_Supremacy focus = King_of_the_East}
+		prerequisite = { focus = ITAGerman_stabilization_campaign focus = ITAItalian_Supremacy focus = ITAKing_of_the_East}
 		
 		
 		x = 30
@@ -407,9 +407,9 @@ focus = {
 	}	
 
 focus = {
-		id = Imperium_Romanum
+		id = ITAImperium_Romanum
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Realize_Roman_ambitions}
+		prerequisite = { focus = ITARealize_Roman_ambitions}
 		
 		
 		x = 30
@@ -427,9 +427,9 @@ focus = {
 	}	
 
 focus = {
-		id = decide_education_policy
+		id = ITAdecide_education_policy
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = convene_the_facist_council}
+		prerequisite = { focus = ITAconvene_the_facist_council}
 		
 		
 		x = 26
@@ -447,9 +447,9 @@ focus = {
 	}	
 
 focus = {
-		id = Decide_Social_Welfare_Policy
+		id = ITADecide_Social_Welfare_Policy
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = convene_the_facist_council }
+		prerequisite = { focus = ITAconvene_the_facist_council }
 		
 		
 		x = 24
