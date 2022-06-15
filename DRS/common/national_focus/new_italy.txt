@@ -465,4 +465,202 @@ focus = {
 			add_political_power = 120
 		}
 	}	
+
+focus = {
+		id = ITAPromote_the_Nuclear_Family
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITADecide_Social_Welfare_Policy }
+		
+		
+		x = 24
+		y = 2
+		
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}	
+
+focus = {
+		id = ITAIncrease_access_to_mental_health_services
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITAPromote_the_Nuclear_Family }
+		
+		
+		x = 24
+		y = 3
+		
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITADecide_Economic_Policy
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITAconvene_the_fascist_council }
+		
+		
+		x = 22
+		y = 1
+		
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITADecide_Agricultural_Policy
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITAconvene_the_fascist_council }
+		
+		
+		x = 20
+		y = 1
+		
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITAIncrease_Grain_production
+		icon = GFX_ITA_increase_grain_production
+		prerequisite = { focus = ITADecide_Agricultural_Policy }
+		
+		
+		x = 20
+		y = 2
+		
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+
+
+# Economic Focuses
+
+focus = {
+		id = ITA_northern_infrastructural_expansion
+		icon = GFX_ITA_northern_infrastructural_expansion
+		
+		x = 16
+		y = 0
+		
+		cost = 10
+	
+		search_filters = {  }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_keep_the_trains_on_time
+		icon = GFX_ITA_keep_the_trains_on_time
+		prerequisite = { focus = ITA_northern_infrastructural_expansion}
+		
+		
+		x = 16
+		y = 1
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_starndard_equipment_measures
+		icon = GFX_ITA_standard_equipment_measures
+		prerequisite = { ITA_keep_the_trains_on_time }
+		
+		
+		x = 16
+		y = 2
+		
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_expand_southern_industrial_potential
+		icon = GFX_ITA_expand_southern_industrial_potential
+		prerequisite = { ITA_starndard_equipment_measures }
+		
+		
+		x = 16
+		y = 3
+		
+		cost = 10
+	
+		search_filters = {  }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_dig_deeper
+		icon = GFX_ITA_dig_deeper
+		prerequisite = { ITA_expand_southern_industrial_potential }
+		
+		
+		x = 16
+		y = 4
+		
+		cost = 10
+	
+		search_filters = {  }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
 }

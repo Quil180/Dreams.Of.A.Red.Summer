@@ -2985,4 +2985,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_convene_the_fascist_council.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ITA_increase_grain_production"
+		texturefile = "gfx/interface/goals/ITA_increase_grain_production.dds"
+	}
+
 }
