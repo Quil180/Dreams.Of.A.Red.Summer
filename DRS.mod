@@ -4,4 +4,4 @@ tags={
 }
 name="Dreams of a Red Summer"
 supported_version="1.11.*"
-path="C:/Users/youse/Documents/Paradox Interactive/Hearts of Iron IV/mod/DRS"
+path="C:/Users/Magic/Documents/Paradox Interactive/Hearts of Iron IV/mod/DRS"
