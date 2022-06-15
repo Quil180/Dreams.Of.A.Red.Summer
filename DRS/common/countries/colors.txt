@@ -38,7 +38,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb {130, 130, 140 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
@@ -70,7 +70,7 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
+	color = rgb { 145, 0, 0 }
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
