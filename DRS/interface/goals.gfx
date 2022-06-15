@@ -2977,4 +2977,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_approach_semyonov.dds"
 	}
 
+	# All the ones down from here are ones added by the mod - quil
+
+	#Italian icons
+	SpriteType = {
+		name = "GFX_ITA_convene_the_fascist_council"
+		texturefile = "gfx/interface/goals/ITA_convene_the_fascist_council.dds"
+	}
+
 }
