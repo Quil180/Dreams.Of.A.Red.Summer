@@ -1,0 +1,33 @@
+﻿focus_tree = {
+	id = italian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+focus = {
+		id = Convene_The_Facist_Council
+		icon = GFX_goal_generic_demand_territory
+		x = 19
+		y = 0
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}	
+
+}
