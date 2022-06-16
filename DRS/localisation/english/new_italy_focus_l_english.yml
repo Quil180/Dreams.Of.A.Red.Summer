@@ -1,5 +1,7 @@
 ﻿l_english:
 
+# Political Section of Italy
+
 ITAconvene_the_fascist_council:0  "Convene the Fascist Council"
 ITAconvene_the_fascist_council_desc:0 "Mussolini’s Partito Nazionale Fascista has done good work in expanding the might of Italia. Economically, socially, and militarily Italia is stronger than ever. It is now time to reflect on past successes and create plans for the future."
 
@@ -86,4 +88,8 @@ ITADecide_Agricultural_Policy_desc:0 ""
 
 ITAIncrease_Grain_production:0 "Increase Grain Production"
 ITAIncrease_Grain_production_desc:0 ""
+
+# Economic Focuses for Italy
+
+
 
