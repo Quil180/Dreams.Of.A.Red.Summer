@@ -3009,4 +3009,40 @@ spriteTypes = {
 		name = "GFX_ITA_war_games"
 		texturefile = "gfx/interface/goals/ITA_war_games.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ITA_end_war_ethiopia"
+		texturefile = "gfx/interface/goals/ITA_end_war_ethiopia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_declare_family"
+		texturefile = "gfx/interface/goals/ITA_declare_family.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_coax_slovenes"
+		texturefile = "gfx/interface/goals/ITA_coax_slovenes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_invite_croats"
+		texturefile = "gfx/interface/goals/ITA_invite_croats.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_balkan_reconciliation"
+		texturefile = "gfx/interface/goals/ITA_balkan_reconciliation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_hell_from_above"
+		texturefile = "gfx/interface/goals/ITA_hell_from_above.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_end_serbian_threat"
+		texturefile = "gfx/interface/goals/ITA_end_serbian_threat.dds"
+	}
+
 }
