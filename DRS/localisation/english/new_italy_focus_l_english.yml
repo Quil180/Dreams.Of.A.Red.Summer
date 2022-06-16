@@ -36,7 +36,7 @@ ITAPorts_on_the_adriatic:0 "Ports on the Adriatic"
 ITAPorts_on_the_adriatic_desc:0 "Aldred Thayer Mahan argued that empires rely on their navies to expand. We must use the new gain in the Balkans to expand our naval prowess."
 
 ITABalkan_Reconciliation:0 "Balkan Reconciliation"
-ITABalkan_Reconciliation_desc:0 "Noq htat we have fully conquered the Balkans, it is time for a reckoning. These provinces must be fully integrated into the Greater Italian Region, and we must face the history of atrocities committed by Greater Servia against the Bosnian Minorities. It is time to create a new history, of a new Balkans, in a New Rome!"
+ITABalkan_Reconciliation_desc:0 "Now that we have fully conquered the Balkans, it is time for a reckoning. These provinces must be fully integrated into the Greater Italian Region, and we must face the history of atrocities committed by Greater Servia against the Bosnian Minorities. It is time to create a new history, of a new Balkans, in a New Rome!"
 
 ITAThe_NOrthern_Cushion:0 "Northern Cushion"
 ITAThe_NOrthern_Cushion_desc:0 ""
@@ -91,5 +91,44 @@ ITAIncrease_Grain_production_desc:0 ""
 
 # Economic Focuses for Italy
 
+ITA_northern_infrastructural_expansion:0 "Northern Infrastructural Expansion"
+ITA_northern_infrastructural_expansion_desc:0 "We need to be able to move people around more efficiently. Better roads and supply stations are needed to get our military around the nation."
 
+ITA_keep_the_trains_on_time:0 "Keep the Trains on Time"
+ITA_keep_the_trains_on_time_desc:0 "He made the trains run on time. Let's keep the trains on time."
+
+ITA_standard_equipment_measures:0 "Standard Equipment Measures"
+ITA_standard_equipment_measures_desc:0 "We must adopt industry standards across Italy. This will ensure that all of our industry is interconnected and interchangeable."
+
+ITA_expand_southern_industrial_potential:0 "Expand Southern Industrial Potential"
+ITA_expand_southern_industrial_potential_desc:0 "The South of Italy has always lagged behind the North in industrial capacity. We must remedy this by expanding industry into the South of the country. This will bring new jobs and income to this region, giving it more life."
+
+ITA_dig_deeper:0 "Dig Deeper"
+ITA_dig_deeper_desc:0 "In order to support our burgeoning industry, we need to extract more raw resources. The Italian rise requires fuel."
+
+ITA_increase_funding_to_the_reale_accademia_ditalia:0 "Increase Funding to the Reale Accademia d'Italia"
+ITA_increase_funding_to_the_reale_accademia_ditalia_desc:0 "After convening the Fascist Council, it was made aware to il Duce that the intellectual development of Italy was falling behind that of the other nations. As a result, it is vital that funding for science is increased."
+
+ITA_industrial_research:0 "Industrial Research"
+ITA_industrial_research_desc:0 "We must use our resources from the Reale Accademia d'Italia to bolster our economic output."
+
+ITA_research_synthetic_rubber_technologies:0 "Research Synthetic Rubber Technologies"
+ITA_research_synthetic_rubber_technologies_desc:0 "Italy needs tires. Lots of it, all in order to sustain the rising armies of our new empire."
+
+ITA_oil_optimization_survey:0 "Oil Optmization Survey"
+ITA_oil_optimization_survey_desc:0 "The newly funded Reale Accademia d'Italia has decided to engage in a survey of all Italian lands in an attempt to boost oil production. Candidates have been found in the Northern Libyan oil fields. Additionally, the survey has detected that we must increase our ability to store oil by building more repositories."
+
+ITA_marconi_institute:0 "The Marconi Institute"
+ITA_marconi_institute_desc:0 ""
+
+ITA_italian_intelligenica:0 ""
+ITA_italian_intelligenica_desc:0 ""
+
+ITA_embrace_campini_capron_scheme:0 ""
+ITA_embrace_campini_capron_scheme_desc:0 ""
+
+ITA_la_acqua_pesante:0 ""
+ITA_la_acqua_pesante_desc:0 ""
+
+# Army focuses for Italy
 
