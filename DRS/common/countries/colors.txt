@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 138  123  102 }
+	color = rgb { 130  132  140 }
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
@@ -38,7 +38,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 130  132  140 }
+	color = rgb { 200  200  200 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
