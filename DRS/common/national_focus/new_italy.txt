@@ -572,7 +572,7 @@ focus = {
 
 focus = {
 		id = ITA_northern_infrastructural_expansion
-		icon = GFX_ITA_northern_infrastructural_expansion
+		icon = GFX_focus_generic_industry_1
 		
 		x = 16
 		y = 0
@@ -590,7 +590,7 @@ focus = {
 
 focus = {
 		id = ITA_keep_the_trains_on_time
-		icon = GFX_ITA_keep_the_trains_on_time
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = ITA_northern_infrastructural_expansion}
 		
 		
@@ -606,14 +606,13 @@ focus = {
 	}
 
 focus = {
-		id = ITA_starndard_equipment_measures
-		icon = GFX_ITA_standard_equipment_measures
-		prerequisite = { ITA_keep_the_trains_on_time }
+		id = ITA_standard_equipment_measures
+		icon = GFX_focus_SOV_organize_wreckers
+		prerequisite = { focus = ITA_keep_the_trains_on_time}
 		
 		
 		x = 16
 		y = 2
-		
 		cost = 10
 	
 		available_if_capitulated = yes
@@ -625,16 +624,13 @@ focus = {
 
 focus = {
 		id = ITA_expand_southern_industrial_potential
-		icon = GFX_ITA_expand_southern_industrial_potential
-		prerequisite = { ITA_starndard_equipment_measures }
+		icon = GFX_focus_generic_industry_2
+		prerequisite = { focus = ITA_standard_equipment_measures }
 		
 		
 		x = 16
 		y = 3
-		
 		cost = 10
-	
-		search_filters = {  }
 	
 		available_if_capitulated = yes
 
@@ -645,16 +641,290 @@ focus = {
 
 focus = {
 		id = ITA_dig_deeper
-		icon = GFX_ITA_dig_deeper
-		prerequisite = { ITA_expand_southern_industrial_potential }
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = ITA_expand_southern_industrial_potential }
 		
 		
 		x = 16
 		y = 4
-		
 		cost = 10
 	
-		search_filters = {  }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_increase_funding_to_the_reale_accademia_ditalia
+		icon = GFX_focus_research
+		prerequisite = { focus = ITA_northern_infrastructural_expansion }
+		
+		
+		x = 13
+		y = 1
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_industrial_research
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = ITA_increase_funding_to_the_reale_accademia_ditalia }
+		
+		
+		x = 14
+		y = 2
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_research_synthetic_rubber_technologies
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = ITA_increase_funding_to_the_reale_accademia_ditalia }
+		
+		
+		x = 12
+		y = 2
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_oil_optimization_survey
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = ITA_research_synthetic_rubber_technologies }
+		
+		
+		x = 12
+		y = 3
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_marconi_institute
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = ITA_industrial_research }
+		
+		
+		x = 14
+		y = 3
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_italian_intelligenica
+		icon = GFX_focus_research2
+		prerequisite = { focus = ITA_oil_optimization_survey }
+		prerequisite = { focus = ITA_marconi_institute }
+		
+		
+		x = 13
+		y = 4
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_embrace_campini_capron_scheme
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = ITA_italian_intelligenica }
+		
+		
+		x = 13
+		y = 5
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_la_acqua_pesante
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = ITA_embrace_campini_capron_scheme }
+		
+		
+		x = 13
+		y = 6
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+# army Focuses
+
+focus = {
+		id = ITA_war_games
+		icon = GFX_ITA_war_games
+		
+		
+		x = 9
+		y = 1
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_school_of_military_affairs
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = ITA_war_games }
+		prerequisite = { focus = ITA_increase_funding_to_the_reale_accademia_ditalia }
+		
+		
+		x = 9
+		y = 2
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_motor_focus
+		icon = GFX_ITA_motor_focus
+		prerequisite = { focus = ITA_school_of_military_affairs }
+		mutually_exclusive = { focus = ITA_artillery_focus }
+		
+		
+		x = 10
+		y = 3
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_camel_corp
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = ITA_motor_focus }
+		
+		
+		x = 10
+		y = 4
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_faster_better_smaller
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = ITA_camel_corp }
+		
+		
+		x = 10
+		y = 5
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_artillery_focus
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = ITA_school_of_military_affairs }
+		mutually_exclusive = { focus = ITA_motor_focus }
+		
+		
+		x = 8
+		y = 3
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_big_guns
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = ITA_artillery_focus }
+		
+		
+		x = 8
+		y = 4
+		cost = 10
+	
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+focus = {
+		id = ITA_hell_from_above
+		icon = GFX_ITA_hell_from_above
+		prerequisite = { focus = ITA_big_guns }
+		
+		
+		x = 8
+		y = 5
+		cost = 10
 	
 		available_if_capitulated = yes
 

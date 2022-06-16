@@ -3001,7 +3001,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ITA_musssolini_takes_flight"
-		texturefile = "gfx/interface/goals/ITA_musssolini_takes_flight.dds"
+		name = "GFX_ITA_mussolini_takes_flight"
+		texturefile = "gfx/interface/goals/ITA_mussolini_takes_flight.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_war_games"
+		texturefile = "gfx/interface/goals/ITA_war_games.dds"
 	}
 }
