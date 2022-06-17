@@ -21,8 +21,8 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
+	#victor_emmanuel
+	#vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -133,7 +133,7 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_adherent
+	#add_ideas = MTG_naval_treaty_adherent
 }
 
 # DIPLOMACY / WAR 36
