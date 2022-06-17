@@ -91,6 +91,26 @@ characters={
 		}
 	}
 
+		ITA_italo_gariboldi={
+		name=ITA_italo_garibldi
+		portraits={
+			army={
+				large=GFX_portrait_ITA_italo_gariboldi
+			}
+		}
+
+		corps_commander={
+			traits={ old_guard trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+
+
 	ITA_emilio_de_bono={
 		name=ITA_emilio_de_bono
 		portraits={
