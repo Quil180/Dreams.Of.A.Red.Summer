@@ -26,6 +26,11 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
+	# Ideas/Nationalo Spirits added by the mod
+	ITAFascist_Council_idea
+	ITAFascist_Economic_Policy_idea
+	ITAMussolini_Foreign_Policy_idea
 }
 
 550 = {

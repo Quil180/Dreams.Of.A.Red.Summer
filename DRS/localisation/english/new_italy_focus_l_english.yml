@@ -132,3 +132,14 @@ ITA_la_acqua_pesante_desc:0 ""
 
 # Army focuses for Italy
 
+
+# National Spirits/Ideas for Italy
+
+ITAFascist_Council_idea:0 "The Fascist Council"
+ITAFascist_Council_idea_desc:0 "filler"
+
+ITAFascist_Economic_Policy_idea:0 "Fascist Economic Policy"
+ITAFascist_Economic_Policy_idea_desc:0 "filler"
+
+ITAMussolini_Foreign_Policy_idea:0 "Mussolini's Foreign Policy"
+ITAMussolini_Foreign_Policy_idea_desc:0 "filler"

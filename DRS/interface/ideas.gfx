@@ -6343,5 +6343,10 @@ spriteTypes = {
 		name = "GFX_idea_sov_blyukher"
 		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_fascist_council"
+		texturefile = "gfx/interface/goals/albania.dds"
+	}
 	
 }

@@ -1,0 +1,15 @@
+ideas = {
+    country = {
+        ITAFascist_Council_idea = {
+            picture = fascist_council
+        }
+
+        ITAFascist_Economic_Policy_idea = {
+            picture = 
+        }
+
+        ITAMussolini_Foreign_Policy_idea = {
+            picture = 
+        }
+    }
+}
