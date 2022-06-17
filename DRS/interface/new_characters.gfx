@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	#### ITA ####
+
+	spriteType = {
+		name = "GFX_portrait_ITA_italo_gariboldi"
+		texturefile = "gfx/leaders/ITA/portrait_Italy_italo_gariboldi.dds"
+	}
+}

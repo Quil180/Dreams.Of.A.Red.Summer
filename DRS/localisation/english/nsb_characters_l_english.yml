@@ -393,7 +393,7 @@
  ITA_ugo_cavallero:0 "$ugo_cavallero$"
  ITA_giovanni_messe:0 "$giovanni_messe$"
  ITA_sebastiano_visconti_prasca:0 "Ettore Bastico"
- ITA_ubaldo_soddu:0 "Vittorio Ambrosio"
+ ITA_ubaldo_soddu:0 "Giuseppe Angelo"
  ITA_italo_balbo:0 "$italo_balbo$"
  ITA_rodolfo_graziani:0 "$rodolfo_graziani$"
  ITA_inigo_campioni:0 "$inigo_campioni$"
@@ -419,6 +419,7 @@
  ITA_amadeo_bordiga:0 "$amadeo_bordiga$"
  ITA_ivanoe_bonomi:0 "$ivanoe_bonomi$"
  ITA_carlo_scorza:0 "$carlo_scorza$"
+ ITA_italo_gariboldi:0 "Italo Gariboldi"
 
  #FRANCE
  FRA_pierre_laval:0 "Pierre Laval"
