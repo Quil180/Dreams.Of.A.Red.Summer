@@ -1,15 +1,15 @@
 ideas = {
     country = {
         ITAFascist_Council_idea = {
-            picture = fascist_council
+            picture = ITA_fascist_council
         }
 
         ITAFascist_Economic_Policy_idea = {
-            picture = 
+            picture = ITA_fascist_economy
         }
 
         ITAMussolini_Foreign_Policy_idea = {
-            picture = 
+            picture = ITA_mussolini_foreign_policy
         }
     }
 }

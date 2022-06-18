@@ -6345,8 +6345,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_fascist_council"
-		texturefile = "gfx/interface/goals/albania.dds"
+		name = "GFX_idea_ITA_fascist_council"
+		texturefile = "gfx/interface/ideas/ITA_fascistcouncil.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_fascist_economy"
+		texturefile = "gfx/interface/ideas/ITA_fascisteconomy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_mussolini_foreign_policy"
+		texturefile = "gfx/interface/ideas/ITA_foreignpolicy.dds"
 	}
 	
 }

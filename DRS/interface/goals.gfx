@@ -3045,4 +3045,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_end_serbian_threat.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ITA_balkan_industry"
+		texturefile = "gfx/interface/goals/ITA_balkan_industry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_approach_zog"
+		texturefile = "gfx/interface/goals/ITA_approach_zog.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_mussolini_takes_flight"
+		texturefile = "gfx/interface/goals/ITA_mussolini_takes_flight.dds"
+	}
 }

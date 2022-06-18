@@ -1,6 +1,6 @@
 ﻿l_english:
 
-# Political Section of Italy
+# Fascist Political Section of Italy
 
 ITAconvene_the_fascist_council:0  "Convene the Fascist Council"
 ITAconvene_the_fascist_council_desc:0 "Mussolini’s Partito Nazionale Fascista has done good work in expanding the might of Italia. Economically, socially, and militarily Italia is stronger than ever. It is now time to reflect on past successes and create plans for the future."
@@ -119,19 +119,115 @@ ITA_oil_optimization_survey:0 "Oil Optmization Survey"
 ITA_oil_optimization_survey_desc:0 "The newly funded Reale Accademia d'Italia has decided to engage in a survey of all Italian lands in an attempt to boost oil production. Candidates have been found in the Northern Libyan oil fields. Additionally, the survey has detected that we must increase our ability to store oil by building more repositories."
 
 ITA_marconi_institute:0 "The Marconi Institute"
-ITA_marconi_institute_desc:0 ""
+ITA_marconi_institute_desc:0 "The newly funded Reale Accademia d'Italia has decided to engage in a survey of all Italian lands in an attempt to boost oil production. Candidates have been found in the northern Libyan oil fields. Additionally, the survey has detected that we must increase our ability to store oil by building more repositories."
 
-ITA_italian_intelligenica:0 ""
-ITA_italian_intelligenica_desc:0 ""
+ITA_italian_intelligenica:0 "Italian Intelligenica"
+ITA_italian_intelligenica_desc:0 "Now that we have expanded the various departments of the Reale Accademia d'Italia, we can finally claium our place as a technological giant."
 
-ITA_embrace_campini_capron_scheme:0 ""
-ITA_embrace_campini_capron_scheme_desc:0 ""
+ITA_embrace_campini_capron_scheme:0 "Embrace the Campini Capron Scheme"
+ITA_embrace_campini_capron_scheme_desc:0 "Italian engineer Secondo Campini has discovered a method of rocket propulsion. We can adapt this into our weaponry, creating a much faster form of aerial weaponry."
 
-ITA_la_acqua_pesante:0 ""
+ITA_la_acqua_pesante:0 "la Acqua Pesante"
 ITA_la_acqua_pesante_desc:0 ""
 
 # Army focuses for Italy
 
+ITA_war_games:0 "War Games"
+ITA_war_games_desc:0 "We should hold war games to prepare our generals for potential conflict."
+
+ITA_school_of_military_affairs:0 "School of Military Affairs"
+ITA_school_of_military_affairs_desc:0 "Now that we have fully funded our research institutions, we should expand this process to our officers."
+
+ITA_artillery_focus:0 "Artillery Focus"
+ITA_artillery_focus_desc:0 "We should focus our military efforts on artillery. We must blast the enemy division, level their cities, and obliterate their fortifications. This is the only way we will win our wars."
+
+ITA_big_guns:0 "Big Guns"
+ITA_big_guns_desc:0 "In order to utilize our new focus on artillery to its best potential, we need bigger guns. It is often said that the one who holds the biggest gun lasts the longest, or at least Mussolini says that."
+
+ITA_hell_from_above:0 "Hell from Above"
+ITA_hell_from_above_desc:0 "We must rain fire from the sky if we are to completely destroy our enemies."
+
+ITA_motor_focus:0 "Motor Focus"
+ITA_motor_focus_desc:0 "During his tour in Ethiopia, Giovanni Messe discovered the effiectiveness of using 'celer' or quick divisions. With the gains made in motor technology, surely these new machines can be put to good work in our army. We will create a new doctrine, never before seen, one where we strike fast."
+
+ITA_camel_corp:0 "Camel Corp"
+ITA_camel_corp_desc:0 "During his time in Africa, Messe witnessed how Camels could be used as pack animals and war animals. Mimicking this, we can use mechanized and motorized divisions to speed through battles."
+
+ITA_faster_better_smaller:0 "Faster, Better, Smaller"
+ITA_faster_better_smaller_desc:0 "The new Italian divisions must be faster, we much be able to reach points of interest before our enemies. Oyr new divisions must be better, we require better equipment, better training, and a better officer corp. Hwever, our division must be smaller, in order to be nimble, swift, and very easily mass produced."
+
+ITA_Form_the_national_firearms_corporation:0 "Form the National Firearms Corporation"
+ITA_Form_the_national_firearms_corporation_desc:0 "In order to properly expand our army, we need guns. A new national firm to produce weapnos and equipment for our soldiers will be vital in our military development."
+
+ITA_improve_support_technologies:0 "Improve Support Technologies"
+ITA_improve_support_technologies_desc:0 "Through the National Firearms Corporation, we are able to provide our soldiers with guns to fight in the field. However, we need to increase the quality of other equipment they are provided."
+
+ITA_bolster_the_alpini:0 "Bolster the Alpini"
+ITA_bolster_the_alpini_desc:0 "The Alpini, specialized mountain divisions, have been utilized in our army since the 19th century. It now requires an expansion."
+
+ITA_fortify_savoy:0 "Fortify Savoy"
+ITA_fortify_savoy_desc:0 "In order to protect our borders, we must fortify the mountains of Savoy. We must be able to defend in the circumstance of unexpected conflict."
+
+ITA_fortify_the_alps:0 "Fortify the Alps"
+ITA_fortify_the_alps_desc:0 "We must extend the line of forts along Savoy to protect our entire mountainous border. Italy will become an impregnable fortress!"
+
+# Naval Focuses for Italy
+
+ITA_naval_reckoning:0 "Naval Reckoning"
+ITA_naval_reckoning_desc:0 "It is time for us to consider the status of our naval dominance in the Mediterranean."
+
+ITA_divisioni_acquatiche:0 "Divisioni Acquatiche"
+ITA_divisioni_acquatiche_desc:0 "There are many islands and strips of land around us in the Mediterranean region. In order to take full advantage of our expanding naval power, we must have troops that can travel on both sea and land."
+
+ITA_improved_transport_models:0 "Improved Transport Models"
+ITA_improved_transport_models_desc:0 "We must have better transportation for our new Divisioni Acquatiche if we are to conquer the whole of the Mediterranean."
+
+ITA_expand_the_cantieri_tosi_shipyards:0 "Expand the Cantieri Tosi Shipyards"
+ITA_expand_the_cantieri_tosi_shipyards_desc:0 "The Cantieri Tosi Shipyards have thus far been used in submarine production, however, we can now utilize this existing infrastructure to fund our naval expansion."
+
+ITA_carrier_focus:0 "Carrier Focus"
+ITA_carrier_focus_desc:0 "If we want to control the Mediterranean, we must be able to control the skies. Aircraft carriers are the best method to ensure our aerial domination in naval battles. In order to complete this goal, we must research more advanced carrier technologies."
+
+ITA_a_fleet_of_aviators:0 "A Fleet of Aviators"
+ITA_a_fleet_of_aviators_desc:0 "We have new carrier models, but we need aircraft to outfit them."
+
+ITA_battleship_focus:0 "Battleship Focus"
+ITA_battleship_focus_desc:0 "In order to control the Mediterranean, we must have the largest heavy vessels. Just as in the First World War, battleships will be essential to victory in the next conflict. We must outproduce all other naval nations, and win the naval war."
+
+ITA_bigger_guns:0 "Bigger Guns"
+ITA_bigger_guns_desc:0 ""
+
+ITA_regina_marina:0 "Regina Marina"
+ITA_regina_marina_desc:0 ""
+
+ITA_submarine_flotilla:0 "Submarine Flotilla"
+ITA_submarine_flotilla_desc:0 ""
+
+ITA_sink_the_merchants:0 "Sink the Merchants"
+ITA_sink_the_merchants_desc:0 ""
+
+ITA_escort_destroyers:0 "Escort Destroyers"
+ITA_escort_destroyers_desc:0 ""
+
+ITA_patrol_ships:0 "Patrol Ships"
+ITA_patrol_ships_desc:0 ""
+
+ITA_mass_production_of_ships:0 "Mass Production of Ships"
+ITA_mass_production_of_ships_desc:0 ""
+
+ITA_mussolini_bathtub:0 "Mussolini's Bathtub"
+ITA_mussolini_bathtub_desc:0 ""
+
+# The 3 Air focuses Italy has got
+
+ITA_mussolini_takes_flight:0 "Mussolini Takes Flight"
+ITA_mussolini_takes_flight_desc:0 "Mussolini has ridden in an aeroplane for the first time in a while. He had a giddy time. He now has decided to focus on expanding the air force."
+
+ITA_bombs_away:0 "Bombs Away!"
+ITA_bombs_away_desc:0 ""
+
+ITA_fighter_expansion:0 "Fighter Expansion"
+ITA_fighter_expansion_desc:0 "Fighters are the backbone of Italian dominance of the skies. We must deny the enemy air superiority at any chance we get."
 
 # National Spirits/Ideas for Italy
 
