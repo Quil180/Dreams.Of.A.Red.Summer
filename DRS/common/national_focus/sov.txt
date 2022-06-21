@@ -1,0 +1,89 @@
+focus_tree = {
+	id = sov
+	continuous_focus_position = { x = 530 y = 1180 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	#Test
+	focus = {
+		id = SOV_test
+		icon = GFX_SOV_test-250550
+		x = 4
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#A New Five Year Plan
+	focus = {
+		id = SOV_a_new_five_year_plan
+		icon = GFX_SOV_a_new_five_year_plan-250540
+		x = 4
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SOV_test  }
+	}
+
+	#Rebuild Our Industry
+	focus = {
+		id = SOV_rebuild_our_industry
+		icon = GFX_SOV_rebuild_our_industry-250551
+		x = 3
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SOV_a_new_five_year_plan  }
+	}
+
+	#Force Urbanisation
+	focus = {
+		id = SOV_force_urbanisation
+		icon = GFX_SOV_force_urbanisation-250553
+		x = 3
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SOV_rebuild_our_industry  }
+	}
+
+	#Continue State Capitalism
+	focus = {
+		id = SOV_continue_state_capitalism
+		icon = GFX_SOV_continue_state_capitalism-250554
+		x = 5
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SOV_a_new_five_year_plan  }
+		mutually_exclusive = { focus = SOV_rebuild_our_industry  }
+	}
+
+	#Bring In Foreign Experts
+	focus = {
+		id = SOV_bring_in_foreign_experts
+		icon = GFX_SOV_bring_in_foreign_experts-250556
+		x = 5
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SOV_continue_state_capitalism  }
+	}
+
+}
