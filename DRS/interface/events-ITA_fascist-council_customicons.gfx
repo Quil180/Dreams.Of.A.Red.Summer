@@ -1,9 +1,0 @@
-spriteTypes = { 
-	##Icon For: The Fascist Council
-	SpriteType = { 
-		name = "ITA_the_fascist_council-755"
-		texturefile = "gfx/interface/events/fascist-council-event/ITA_the_fascist_council-755.dds"
-	}
-
- 
- }
