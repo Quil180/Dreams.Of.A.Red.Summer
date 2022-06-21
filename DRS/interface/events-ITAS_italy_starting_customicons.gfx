@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Italy The Birthplace Of Fascism
+	SpriteType = { 
+		name = "ITAS_italy_the_birthplace_of_fascism-898"
+		texturefile = "gfx/interface/events/italy_starting-event/ITAS_italy_the_birthplace_of_fascism-898.dds"
+	}
+
+ 
+ }

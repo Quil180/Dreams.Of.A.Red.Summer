@@ -27,6 +27,12 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 120
+			country_event = {
+    		id = ITA_italy.1
+    		days = 1
+    		random = 1
+    		random_days = 1
+			}
 		}
 	}
 	
@@ -267,7 +273,7 @@ focus = {
 
 focus = {
 		id = ITABYzantine_Reclamation
-		icon = GFX_focus_GRE_byzantine_themata
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = ITABalkan_Reconciliation}
 		mutually_exclusive = { focus = ITAThe_NOrthern_Cushion}
 		mutually_exclusive = { focus = ITAThe_Powers_that_BEE}
@@ -348,7 +354,7 @@ focus = {
 
 focus = {
 		id = ITAGerman_stabilization_campaign
-		icon = GFX_focus_attack_germany
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = ITAHamburg_plan}
 		
 		
@@ -797,7 +803,7 @@ focus = {
 
 focus = {
 		id = ITA_war_games
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_ITA_war_games
 		
 		
 		x = 8
@@ -918,7 +924,7 @@ focus = {
 
 focus = {
 		id = ITA_hell_from_above
-		icon = GFX_goal_poland_goal
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_big_guns }
 		
 		
@@ -935,7 +941,7 @@ focus = {
 
 focus = {
 		id = ITA_Form_the_national_firearms_corporation
-		icon = GFX_focus_focus_fra_maquis
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_war_games }
 		
 		
@@ -952,7 +958,7 @@ focus = {
 
 focus = {
 		id = ITA_improve_support_technologies
-		icon = GFX_focus_chi_army_reform
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_Form_the_national_firearms_corporation }
 		
 		
@@ -987,7 +993,7 @@ focus = {
 
 focus = {
 		id = ITA_fortify_savoy
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_bolster_the_alpini }
 		
 		
@@ -1003,7 +1009,7 @@ focus = {
 	}
 focus = {
 		id = ITA_fortify_the_alps
-		icon = GFX_focus_GRE_a_land_of_mountains
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_fortify_savoy }
 		
 		
@@ -1020,7 +1026,7 @@ focus = {
 
 focus = {
 		id = ITA_naval_reckoning
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_ITA_hell_from_above
 		
 		
 		
@@ -1037,7 +1043,7 @@ focus = {
 
 focus = {
 		id = ITA_divisioni_acquatiche
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_naval_reckoning }
 		
 		
@@ -1054,7 +1060,7 @@ focus = {
 
 focus = {
 		id = ITA_improved_transport_models
-		icon = GFX_focus_NZL_bob_semple_tank
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_divisioni_acquatiche }
 		
 		
@@ -1072,7 +1078,7 @@ focus = {
 
 focus = {
 		id = ITA_expand_the_cantieri_tosi_shipyards
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_naval_reckoning }
 		
 		
@@ -1091,7 +1097,7 @@ focus = {
 
 focus = {
 		id = ITA_carrier_focus
-		icon = GFX_goal_generic_navy_carrier
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_expand_the_cantieri_tosi_shipyards }
 		mutually_exclusive = { focus = ITA_battleship_focus }
 		
@@ -1109,7 +1115,7 @@ focus = {
 
 focus = {
 		id = ITA_battleship_focus
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_expand_the_cantieri_tosi_shipyards }
 		mutually_exclusive = { focus = ITA_carrier_focus }
 		
@@ -1128,7 +1134,7 @@ focus = {
 
 focus = {
 		id = ITA_submarine_flotilla
-		icon = GFX_goal_generic_navy_submarine
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_expand_the_cantieri_tosi_shipyards }
 		
 		
@@ -1146,7 +1152,7 @@ focus = {
 
 focus = {
 		id = ITA_escort_destroyers
-		icon = GFX_goal_generic_navy_cruiser
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_expand_the_cantieri_tosi_shipyards }
 		
 		
@@ -1163,7 +1169,7 @@ focus = {
 
 focus = {
 		id = ITA_a_fleet_of_aviators
-		icon = GFX_goal_generic_air_naval_bomber
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_carrier_focus}
 		
 		
@@ -1198,7 +1204,7 @@ focus = {
 
 focus = {
 		id = ITA_regina_marina
-		icon = GFX_focus_generic_navy_battleship2
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_a_fleet_of_aviators focus = ITA_bigger_guns }
 		
 		
@@ -1215,7 +1221,7 @@ focus = {
 
 focus = {
 		id = ITA_sink_the_merchants
-		icon = GFX_goal_generic_navy_anti_submarine
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_submarine_flotilla }
 		
 		
@@ -1234,7 +1240,7 @@ focus = {
 
 focus = {
 		id = ITA_patrol_ships
-		icon = GFX_focus_generic_destroyer
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_escort_destroyers }
 		
 		
@@ -1251,7 +1257,7 @@ focus = {
 
 focus = {
 		id = ITA_mass_production_of_ships
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_sink_the_merchants focus = ITA_patrol_ships }
 		
 		
@@ -1286,7 +1292,7 @@ focus = {
 
 focus = {
 		id = ITA_mussolini_takes_flight
-		icon = GFX_goal_generic_air_doctrine
+		icon = GFX_ITA_mussolini_takes_flight
 		
 		
 		
@@ -1304,7 +1310,7 @@ focus = {
 
 focus = {
 		id = ITA_fighter_expansion
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_mussolini_takes_flight }
 		
 		
@@ -1321,7 +1327,7 @@ focus = {
 
 focus = {
 		id = ITA_bombs_away
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_ITA_hell_from_above
 		prerequisite = { focus = ITA_mussolini_takes_flight }
 		
 		
