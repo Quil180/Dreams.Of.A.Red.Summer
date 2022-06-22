@@ -8,4 +8,9 @@ spriteTypes = {
 		name = "GFX_portrait_ITA_italo_gariboldi"
 		texturefile = "gfx/leaders/ITA/portrait_Italy_italo_gariboldi.dds"
 	}
+
+		spriteType = {
+		name = "GFX_portrait_SOVU_nikolai_bukharin"
+		texturefile = "gfx/leaders/SOV/portrait_SOVU_nikolai_bukharin.dds"
+	}
 }

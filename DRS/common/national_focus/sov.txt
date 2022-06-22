@@ -186,14 +186,81 @@ focus_tree = {
 	}
 	default = no
 
-#Test
+#Our Country Is Falling Apart
 	focus = {
-		id = SOV_test
-		icon = GFX_SOV_replace_bukharin-442
-		x = 25
-		y = 4
-		cost = 4
+		id = SOV1_our_country_is_falling_apart
+		icon = GFX_SOV1_our_country_is_falling_apart-442
+		x = 8
+		y = 0
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+
+	#Step Down From Economic Minister
+	focus = {
+		id = SOV1_step_down_from_economic_minister
+		icon = GFX_SOV1_step_down_from_economic_minister-442
+		x = 8
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SOV1_our_country_is_falling_apart  }
+	}
+
+	#Reshuffle The Politburo
+	focus = {
+		id = SOV1_reshuffle_the_politburo
+		icon = GFX_SOV1_reshuffle_the_politburo-442
+		x = 8
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SOV1_step_down_from_economic_minister  }
+	}
+
+	#Appoint A New Economic Minister
+	focus = {
+		id = SOV1_appoint_a_new_economic_minister
+		icon = GFX_SOV1_appoint_a_new_economic_minister-442
+		x = 8
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SOV1_reshuffle_the_politburo  }
+	}
+
+	#Deal With The Supreme Soviet
+	focus = {
+		id = SOV1_deal_with_the_supreme_soviet
+		icon = GFX_SOV1_deal_with_the_supreme_soviet-442
+		x = 10
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SOV1_reshuffle_the_politburo  }
+	}
+
+	#Reform Our Security Forces
+	focus = {
+		id = SOV1_reform_our_security_forces
+		icon = GFX_SOV1_reform_our_security_forces-442
+		x = 6
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SOV1_reshuffle_the_politburo  }
+	}
+
+}
