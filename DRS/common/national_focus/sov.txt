@@ -12,9 +12,9 @@ focus_tree = {
 	focus = {
 		id = SOV_replace_bukharin
 		icon = GFX_SOV_replace_bukharin-442
-		x = 25
+		x = 11
 		y = 4
-		cost = 4
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -26,9 +26,9 @@ focus_tree = {
 	focus = {
 		id = SOV_weneedmoreworkers
 		icon = GFX_SOV_weneedmoreworkers-442
-		x = 23
+		x = 9
 		y = 5
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -39,9 +39,9 @@ focus_tree = {
 	focus = {
 		id = SOV_address_the_supreme_soviet
 		icon = GFX_SOV_address_the_supreme_soviet-442
-		x = 24
+		x = 10
 		y = 0
-		cost = 4
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -51,9 +51,9 @@ focus_tree = {
 	focus = {
 		id = SOV_implement_military_reforms
 		icon = GFX_SOV_implement_military_reforms-442
-		x = 23
+		x = 9
 		y = 6
-		cost = 3
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -69,9 +69,9 @@ focus_tree = {
 	focus = {
 		id = SOV_a_new_five_year_plan
 		icon = GFX_SOV_a_new_five_year_plan-442
-		x = 24
+		x = 10
 		y = 1
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -82,9 +82,9 @@ focus_tree = {
 	focus = {
 		id = SOV_rebuild_our_industry
 		icon = GFX_SOV_rebuild_our_industry-442
-		x = 23
+		x = 9
 		y = 2
-		cost = 1
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -96,9 +96,9 @@ focus_tree = {
 	focus = {
 		id = SOV_force_urbanisation
 		icon = GFX_SOV_force_urbanisation-442
-		x = 23
+		x = 9
 		y = 3
-		cost = 1
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -109,9 +109,9 @@ focus_tree = {
 	focus = {
 		id = SOV_continue_state_capitalism
 		icon = GFX_SOV_continue_state_capitalism-442
-		x = 25
+		x = 11
 		y = 2
-		cost = 1
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -123,9 +123,9 @@ focus_tree = {
 	focus = {
 		id = SOV_bring_in_foreign_experts
 		icon = GFX_SOV_bring_in_foreign_experts-442
-		x = 25
+		x = 11
 		y = 3
-		cost = 1
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -136,9 +136,9 @@ focus_tree = {
 	focus = {
 		id = SOV_bukharinsintervention
 		icon = GFX_SOV_bukharinsintervention-442
-		x = 23
+		x = 9
 		y = 4
-		cost = 4
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -150,9 +150,9 @@ focus_tree = {
 	focus = {
 		id = SOV_weneedastrongleader
 		icon = GFX_SOV_weneedastrongleader-442
-		x = 25
+		x = 11
 		y = 5
-		cost = 3
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -163,9 +163,9 @@ focus_tree = {
 	focus = {
 		id = SOV_voroshilovscoup
 		icon = GFX_SOV_voroshilovscoup-442
-		x = 25
+		x = 11
 		y = 6
-		cost = 3
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -192,7 +192,7 @@ focus_tree = {
 		icon = GFX_SOV1_our_country_is_falling_apart-442
 		x = 8
 		y = 0
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -204,7 +204,7 @@ focus_tree = {
 		icon = GFX_SOV1_step_down_from_economic_minister-442
 		x = 8
 		y = 1
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -217,7 +217,7 @@ focus_tree = {
 		icon = GFX_SOV1_reshuffle_the_politburo-442
 		x = 8
 		y = 2
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -230,7 +230,7 @@ focus_tree = {
 		icon = GFX_SOV1_appoint_a_new_economic_minister-442
 		x = 8
 		y = 3
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -243,7 +243,7 @@ focus_tree = {
 		icon = GFX_SOV1_deal_with_the_supreme_soviet-442
 		x = 10
 		y = 3
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -256,7 +256,7 @@ focus_tree = {
 		icon = GFX_SOV1_reform_our_security_forces-442
 		x = 6
 		y = 3
-		cost = 2
+		cost = 3.6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
