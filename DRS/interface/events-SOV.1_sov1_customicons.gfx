@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Reforming The Military
+	SpriteType = { 
+		name = "SOV.1_reforming_the_military-945"
+		texturefile = "gfx/interface/events/sov1-event/SOV.1_reforming_the_military-945.dds"
+	}
+
+ 
+ }
