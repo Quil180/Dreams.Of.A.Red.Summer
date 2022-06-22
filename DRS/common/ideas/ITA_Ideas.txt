@@ -11,5 +11,67 @@ ideas = {
         ITAMussolini_Foreign_Policy_idea = {
             picture = ITA_mussolini_foreign_policy
         }
-    }
+    
+		ITA_Italian_industrial_spirit = {
+			picture = ITA_Italian_industrial_spirit
+			modifier = {
+                production_speed_infrastructure_factor = 0.1
+            }
+		}
+		
+		ITA_Italian_industrial_spirit_2 = {
+		picture = ITA_Italian_industrial_spirit
+		modifier = {
+                production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.05
+            }
+		}
+		
+		ITA_Italian_industrial_spirit_3 = {
+		picture = ITA_Italian_industrial_spirit
+		modifier = {
+                production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.1
+            }
+		}
+		
+		ITA_Italian_industrial_spirit_4 = {
+		picture = ITA_Italian_industrial_spirit
+		modifier = {
+                production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.05
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+			
+		}
+		
+		ITA_Italian_industrial_spirit_5 = {
+		picture = ITA_Italian_industrial_spirit
+		modifier = {
+                production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.05
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				industrial_capacity_factory = 0.1
+				local_resources_factor = 0.10
+			}
+			
+		}
+		
+		ITA_increase_funding_to_the_reale_accademia_ditalia_idea = {
+            picture = ITA_increase_funding_to_the_reale_accademia_ditalia_idea
+			modifier = {
+				research_speed_factor = 0.05
+			}
+        }
+		
+	}
 }
